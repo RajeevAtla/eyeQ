@@ -6,7 +6,7 @@ export default function upload() {
 	<div className="flex flex-col items-center justify-center min-h-screen py-2 dark:bg-gray-800">
 	    <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
 		<h1 className="text-7xl font-bold">
-		    <a className="text-red-600 dark:text-blue-600">
+		    <a className="text-red-600 dark:text-red-600">
 			EyeQ
 		    </a>
 		</h1>
