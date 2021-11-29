@@ -21,9 +21,6 @@ export default function index() {
 			<p className="mt-4 text-xl dark:text-white">
 			    Upload a file and have it read to you!
 			</p>
-			<p className="mt-4 text-xl dark:text-white">
-
-			</p>
 		    </a>
 		    
 		</div>
