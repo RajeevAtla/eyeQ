@@ -3,7 +3,10 @@ FROM elixir:latest
 RUN apt-get update
 RUN apt-get install -y tesseract-ocr libtesseract-dev inotify-tools
 WORKDIR /eyeQ
+
 COPY . .
+
+RUN elixir -v
 RUN mix local.hex --force
 RUN mix local.rebar --force
 RUN mix deps.get
